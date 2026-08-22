@@ -1,14 +1,30 @@
 # Maxxwell downloads
 
-Latest release: [v0.1.2](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.2)
+Latest release: [v0.1.9](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.9)
+
+## Release identity
+
+- Version: v0.1.9
+- Build: global-46
+- Source commit: 5dfff63fd2625a2b8968ab10d0bcef48da9aa406
+- Staged: August 22, 2026 at 11:42:24 AM PDT
 
 | Platform | Download | Install |
 | --- | --- | --- |
-| macOS arm64 | [`Maxxwell-darwin-arm64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.2/Maxxwell-darwin-arm64.tar.gz) | `tar -xzf Maxxwell-darwin-arm64.tar.gz`; replace Maxxwell.app in /Applications |
-| macOS x64 | [`Maxxwell-darwin-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.2/Maxxwell-darwin-x64.tar.gz) | `tar -xzf Maxxwell-darwin-x64.tar.gz`; replace Maxxwell.app in /Applications |
-| Linux x64 | [`Maxxwell-linux-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.2/Maxxwell-linux-x64.tar.gz) | `tar -xzf Maxxwell-linux-x64.tar.gz`; requires tmux |
-| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.2/Maxxwell-windows-x64.zip) | `Expand-Archive .\Maxxwell-windows-x64.zip`; SmartScreen will warn |
+| macOS arm64 | [`Maxxwell-darwin-arm64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.9/Maxxwell-darwin-arm64.tar.gz) | `tar -xzf Maxxwell-darwin-arm64.tar.gz` |
+| macOS x64 | [`Maxxwell-darwin-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.9/Maxxwell-darwin-x64.tar.gz) | `tar -xzf Maxxwell-darwin-x64.tar.gz` |
+| Linux tar | [`Maxxwell-linux-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.9/Maxxwell-linux-x64.tar.gz) | \`tar -xzf Maxxwell-linux-x64.tar.gz\` |
+| Linux deb | [`maxxwell_0.1.9-global-46_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.9/maxxwell_0.1.9-global-46_amd64.deb) | \`sudo apt install ./maxxwell_0.1.9-global-46_amd64.deb\` |
+| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.9/Maxxwell-windows-x64.zip) | `Expand-Archive .\Maxxwell-windows-x64.zip` (SmartScreen will warn) |
 
-Darwin and Windows are Linux cross-builds whose target-native binary formats were validated; packaged GUI launch and Windows WSL fleet transport remain unverified.
+[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.9/SHA256SUMS.txt) verifies every published artifact.
 
-[`SHA256SUMS.txt`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.2/SHA256SUMS.txt) verifies every canonical updater artifact.
+## Platform build status
+
+| Platform | Status | Evidence |
+| --- | --- | --- |
+| macOS | BUILT | Linux-cross-built arm64/x64 app and standalone CLI tarballs; target Mach-O modules validated; packaged GUI launch remains UNVERIFIED |
+| Linux | BUILT | self-hosted native .tar.gz, .deb, and standalone CLI tarball validated |
+| Windows | BUILT | Linux-cross-built unsigned x64 app/CLI ZIPs; target PE modules validated; SmartScreen will warn; packaged GUI launch remains UNVERIFIED |
+
+No declared platform artifacts are pending.
