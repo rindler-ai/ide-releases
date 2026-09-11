@@ -1,23 +1,23 @@
 # Maxxwell downloads
 
-Latest release: [v0.1.63](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.63)
+Latest release: [v0.1.64](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.64)
 
 ## Release identity
 
-- Version: v0.1.63
-- Build: global-108
-- Source commit: 63e4ed103cacfb230facbc3f29f1ddd87bf676e1
-- Staged: September 11, 2026 at 12:56:53 AM PDT
+- Version: v0.1.64
+- Build: global-109
+- Source commit: 682108d243f7ac13be89bd27339fca3a4d1e4d5a
+- Staged: September 11, 2026 at 2:26:33 AM PDT
 
 | Platform | Download | Install |
 | --- | --- | --- |
-| macOS arm64 | [`Maxxwell-darwin-arm64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.63/Maxxwell-darwin-arm64.tar.gz) | `tar -xzf Maxxwell-darwin-arm64.tar.gz` |
-| macOS x64 | [`Maxxwell-darwin-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.63/Maxxwell-darwin-x64.tar.gz) | `tar -xzf Maxxwell-darwin-x64.tar.gz` |
-| Linux tar | [`Maxxwell-linux-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.63/Maxxwell-linux-x64.tar.gz) | \`tar -xzf Maxxwell-linux-x64.tar.gz\` |
-| Linux deb | [`maxxwell_0.1.63-global-108_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.63/maxxwell_0.1.63-global-108_amd64.deb) | \`sudo apt install ./maxxwell_0.1.63-global-108_amd64.deb\` |
-| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.63/Maxxwell-windows-x64.zip) | `Expand-Archive .\Maxxwell-windows-x64.zip` (SmartScreen will warn) |
+| macOS arm64 | [`Maxxwell-darwin-arm64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.64/Maxxwell-darwin-arm64.tar.gz) | `tar -xzf Maxxwell-darwin-arm64.tar.gz` |
+| macOS x64 | [`Maxxwell-darwin-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.64/Maxxwell-darwin-x64.tar.gz) | `tar -xzf Maxxwell-darwin-x64.tar.gz` |
+| Linux tar | [`Maxxwell-linux-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.64/Maxxwell-linux-x64.tar.gz) | \`tar -xzf Maxxwell-linux-x64.tar.gz\` |
+| Linux deb | [`maxxwell_0.1.64-global-109_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.64/maxxwell_0.1.64-global-109_amd64.deb) | \`sudo apt install ./maxxwell_0.1.64-global-109_amd64.deb\` |
+| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.64/Maxxwell-windows-x64.zip) | `Expand-Archive .\Maxxwell-windows-x64.zip` (SmartScreen will warn) |
 
-[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.63/SHA256SUMS.txt) verifies every published artifact.
+[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.64/SHA256SUMS.txt) verifies every published artifact.
 
 ## Platform build status
 
