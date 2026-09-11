@@ -19,6 +19,47 @@ Latest release: [v0.1.64](https://github.com/rindler-ai/ide-releases/releases/ta
 
 [SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.64/SHA256SUMS.txt) verifies every published artifact.
 
+## If `maxxwell self-update` fails with HTTP 404
+
+The standalone `maxxwell` CLI at v0.1.61 or earlier can't update itself. Its `self-update`
+downloads from a repository that is no longer public, so it stops with
+`read the release checksums: GET https://github.com/rindler-ai/maxxwell-cli/...: HTTP 404`
+and leaves the old version in place.
+
+**If you use the desktop app, update the app instead of running anything below.** The app is not
+affected: it updates itself from this repository and replaces its bundled `maxxwell` when it does,
+and its `maxxwell` on your `PATH` is a link into the app.
+
+Otherwise, reinstall the CLI once from this release, over the old executable:
+
+macOS arm64:
+
+```sh
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.64/maxxwell-darwin-cli-arm64-global-109.tar.gz
+tar -xzf maxxwell-darwin-cli-arm64-global-109.tar.gz
+install -m 0755 maxxwell "$(command -v maxxwell)"
+```
+
+macOS x64:
+
+```sh
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.64/maxxwell-darwin-cli-x64-global-109.tar.gz
+tar -xzf maxxwell-darwin-cli-x64-global-109.tar.gz
+install -m 0755 maxxwell "$(command -v maxxwell)"
+```
+
+Linux x64:
+
+```sh
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.64/maxxwell-linux-cli-x64-global-109.tar.gz
+tar -xzf maxxwell-linux-cli-x64-global-109.tar.gz
+install -m 0755 maxxwell "$(command -v maxxwell)"
+```
+
+If that path is not writable, the last command fails and changes nothing; re-run it with `sudo`.
+
+From v0.1.62 on, `maxxwell self-update` downloads from this repository.
+
 ## Platform build status
 
 | Platform | Status | Evidence |
