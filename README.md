@@ -1,23 +1,23 @@
 # Maxxwell downloads
 
-Latest release: [v0.1.115](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.115)
+Latest release: [v0.1.118](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.118)
 
 ## Release identity
 
-- Version: v0.1.115
-- Build: global-381
-- Source commit: fe325365b9175048d96db6f2cc7499199408fca6
-- Staged: September 26, 2026 at 1:03:34 AM PDT
+- Version: v0.1.118
+- Build: global-384
+- Source commit: ba269abb0e565c3dae74a183bb22885beb4ee340
+- Staged: September 26, 2026 at 10:17:50 AM PDT
 
 | Platform | Download | Install |
 | --- | --- | --- |
-| macOS arm64 | [`Maxxwell-darwin-arm64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.115/Maxxwell-darwin-arm64.tar.gz) | `tar -xzf Maxxwell-darwin-arm64.tar.gz` |
-| macOS x64 | [`Maxxwell-darwin-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.115/Maxxwell-darwin-x64.tar.gz) | `tar -xzf Maxxwell-darwin-x64.tar.gz` |
-| Linux tar | [`Maxxwell-linux-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.115/Maxxwell-linux-x64.tar.gz) | `tar -xzf Maxxwell-linux-x64.tar.gz` |
-| Linux deb | [`maxxwell_0.1.115-global-381_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.115/maxxwell_0.1.115-global-381_amd64.deb) | `sudo apt install ./maxxwell_0.1.115-global-381_amd64.deb` |
-| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.115/Maxxwell-windows-x64.zip) | `Expand-Archive .\Maxxwell-windows-x64.zip` (SmartScreen will warn) |
+| macOS arm64 | [`Maxxwell-darwin-arm64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.118/Maxxwell-darwin-arm64.tar.gz) | `tar -xzf Maxxwell-darwin-arm64.tar.gz` |
+| macOS x64 | [`Maxxwell-darwin-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.118/Maxxwell-darwin-x64.tar.gz) | `tar -xzf Maxxwell-darwin-x64.tar.gz` |
+| Linux tar | [`Maxxwell-linux-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.118/Maxxwell-linux-x64.tar.gz) | `tar -xzf Maxxwell-linux-x64.tar.gz` |
+| Linux deb | [`maxxwell_0.1.118-global-384_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.118/maxxwell_0.1.118-global-384_amd64.deb) | `sudo apt install ./maxxwell_0.1.118-global-384_amd64.deb` |
+| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.118/Maxxwell-windows-x64.zip) | `Expand-Archive .\Maxxwell-windows-x64.zip` (SmartScreen will warn) |
 
-[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.115/SHA256SUMS.txt) verifies every published artifact.
+[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.118/SHA256SUMS.txt) verifies every published artifact.
 
 ## If `maxxwell self-update` fails with HTTP 404
 
@@ -57,8 +57,8 @@ macOS arm64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.115/maxxwell-darwin-cli-arm64-global-381.tar.gz
-tar -xzf maxxwell-darwin-cli-arm64-global-381.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.118/maxxwell-darwin-cli-arm64-global-384.tar.gz
+tar -xzf maxxwell-darwin-cli-arm64-global-384.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -66,8 +66,8 @@ macOS x64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.115/maxxwell-darwin-cli-x64-global-381.tar.gz
-tar -xzf maxxwell-darwin-cli-x64-global-381.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.118/maxxwell-darwin-cli-x64-global-384.tar.gz
+tar -xzf maxxwell-darwin-cli-x64-global-384.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -75,8 +75,8 @@ Linux x64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.115/maxxwell-linux-cli-x64-global-381.tar.gz
-tar -xzf maxxwell-linux-cli-x64-global-381.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.118/maxxwell-linux-cli-x64-global-384.tar.gz
+tar -xzf maxxwell-linux-cli-x64-global-384.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
