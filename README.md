@@ -1,23 +1,23 @@
 # Maxxwell downloads
 
-Latest release: [v0.1.139](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.139)
+Latest release: [v0.1.140](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.140)
 
 ## Release identity
 
-- Version: v0.1.139
-- Build: global-405
-- Source commit: 7e06f78eb05dfd37c14794fe80de7136e930bedf
-- Staged: September 30, 2026 at 2:10:17 AM PDT
+- Version: v0.1.140
+- Build: global-406
+- Source commit: 19d366084df8af1f13990b436f010908a53296b2
+- Staged: September 30, 2026 at 4:53:23 AM PDT
 
 | Platform | Download | Install |
 | --- | --- | --- |
-| macOS arm64 | [`Maxxwell-darwin-arm64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.139/Maxxwell-darwin-arm64.tar.gz) | `tar -xzf Maxxwell-darwin-arm64.tar.gz` |
-| macOS x64 | [`Maxxwell-darwin-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.139/Maxxwell-darwin-x64.tar.gz) | `tar -xzf Maxxwell-darwin-x64.tar.gz` |
-| Linux tar | [`Maxxwell-linux-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.139/Maxxwell-linux-x64.tar.gz) | `tar -xzf Maxxwell-linux-x64.tar.gz` |
-| Linux deb | [`maxxwell_0.1.139-global-405_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.139/maxxwell_0.1.139-global-405_amd64.deb) | `sudo apt install ./maxxwell_0.1.139-global-405_amd64.deb` |
-| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.139/Maxxwell-windows-x64.zip) | `Expand-Archive .\Maxxwell-windows-x64.zip` (SmartScreen will warn) |
+| macOS arm64 | [`Maxxwell-darwin-arm64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.140/Maxxwell-darwin-arm64.tar.gz) | `tar -xzf Maxxwell-darwin-arm64.tar.gz` |
+| macOS x64 | [`Maxxwell-darwin-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.140/Maxxwell-darwin-x64.tar.gz) | `tar -xzf Maxxwell-darwin-x64.tar.gz` |
+| Linux tar | [`Maxxwell-linux-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.140/Maxxwell-linux-x64.tar.gz) | `tar -xzf Maxxwell-linux-x64.tar.gz` |
+| Linux deb | [`maxxwell_0.1.140-global-406_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.140/maxxwell_0.1.140-global-406_amd64.deb) | `sudo apt install ./maxxwell_0.1.140-global-406_amd64.deb` |
+| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.140/Maxxwell-windows-x64.zip) | `Expand-Archive .\Maxxwell-windows-x64.zip` (SmartScreen will warn) |
 
-[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.139/SHA256SUMS.txt) verifies every published artifact.
+[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.140/SHA256SUMS.txt) verifies every published artifact.
 
 ## If `maxxwell self-update` fails with HTTP 404
 
@@ -57,8 +57,8 @@ macOS arm64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.139/maxxwell-darwin-cli-arm64-global-405.tar.gz
-tar -xzf maxxwell-darwin-cli-arm64-global-405.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.140/maxxwell-darwin-cli-arm64-global-406.tar.gz
+tar -xzf maxxwell-darwin-cli-arm64-global-406.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -66,8 +66,8 @@ macOS x64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.139/maxxwell-darwin-cli-x64-global-405.tar.gz
-tar -xzf maxxwell-darwin-cli-x64-global-405.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.140/maxxwell-darwin-cli-x64-global-406.tar.gz
+tar -xzf maxxwell-darwin-cli-x64-global-406.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -75,8 +75,8 @@ Linux x64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.139/maxxwell-linux-cli-x64-global-405.tar.gz
-tar -xzf maxxwell-linux-cli-x64-global-405.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.140/maxxwell-linux-cli-x64-global-406.tar.gz
+tar -xzf maxxwell-linux-cli-x64-global-406.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -89,9 +89,9 @@ From v0.1.62 on, `maxxwell self-update` downloads from this repository.
 
 | Platform | Status | Evidence |
 | --- | --- | --- |
-| macOS | BUILT | arm64 packaged, signed, notarized and stapled on a real Mac, and the .dmg verified against Gatekeeper; target Mach-O modules validated; packaged GUI launch and the native workspace-folder picker were confirmed end-to-end by the founder on v0.1.42 (2026-09-05) -- not independently re-verified per release |
-| Linux | BUILT | self-hosted native .tar.gz, .deb, and standalone x64 CLI tarball validated |
+| macOS | BUILT | arm64 packaged, signed, notarized and stapled on a real Mac, and the .dmg verified against Gatekeeper; target Mach-O modules validated; not walked on this build; last walked on v0.1.42 (2026-09-05): packaged GUI launch and the native workspace-folder picker, end to end, by the founder |
+| Linux | BUILT | self-hosted native .tar.gz, .deb, and standalone x64 CLI tarball validated; not walked on this build; last walked on v0.1.137 (2026-09-30): update in-app from v0.1.123 with the workspace trust kept and the first send answered |
 | Linux arm64 | CLI ONLY | the standalone arm64 CLI tarball is cross-built by the Linux job (pure Go); there is no arm64 app or .deb, because the Electron bundle and node-pty need host-native packaging. Like the x64 CLI tarball it carries the `maxxwell` executable alone and NO bundled tmux -- the tmux pin manifest declares one asset, darwin-arm64 -- so the host supplies tmux, which is what the .deb's `Depends: tmux` already assumes |
-| Windows | BUILT | Linux-cross-built unsigned x64 app/CLI ZIPs; target PE modules validated; SmartScreen will warn; packaged GUI launch remains UNVERIFIED |
+| Windows | BUILT | Linux-cross-built unsigned x64 app/CLI ZIPs; target PE modules validated; SmartScreen will warn; not walked on this build; last walked on v0.1.137 (2026-09-30): first run to a working seat and two sends (J1) 3/3; update in-app and by ZIP from v0.1.134, v0.1.135 and v0.1.136 6/6; the seat resumed after its tmux server was killed (J3) |
 
 No declared platform artifacts are pending.
