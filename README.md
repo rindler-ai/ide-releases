@@ -1,23 +1,23 @@
 # Maxxwell downloads
 
-Latest release: [v0.1.171](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.171)
+Latest release: [v0.1.172](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.172)
 
 ## Release identity
 
-- Version: v0.1.171
-- Build: global-437
-- Source commit: c845fb052cdbe48d3816d3b443e0d11a02c29764
-- Staged: October 4, 2026 at 11:25:37 PM PDT
+- Version: v0.1.172
+- Build: global-438
+- Source commit: c8341146d2070ec47809e661185a244071cdcfe0
+- Staged: October 6, 2026 at 7:17:38 PM PDT
 
 | Platform | Download | Install |
 | --- | --- | --- |
-| macOS arm64 | [`Maxxwell-darwin-arm64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.171/Maxxwell-darwin-arm64.tar.gz) | `tar -xzf Maxxwell-darwin-arm64.tar.gz` |
-| macOS x64 | [`Maxxwell-darwin-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.171/Maxxwell-darwin-x64.tar.gz) | `tar -xzf Maxxwell-darwin-x64.tar.gz` |
-| Linux tar | [`Maxxwell-linux-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.171/Maxxwell-linux-x64.tar.gz) | `tar -xzf Maxxwell-linux-x64.tar.gz` |
-| Linux deb | [`maxxwell_0.1.171-global-437_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.171/maxxwell_0.1.171-global-437_amd64.deb) | `sudo apt install ./maxxwell_0.1.171-global-437_amd64.deb` |
-| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.171/Maxxwell-windows-x64.zip) | `Expand-Archive .\Maxxwell-windows-x64.zip` (SmartScreen will warn) |
+| macOS arm64 | [`Maxxwell-darwin-arm64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.172/Maxxwell-darwin-arm64.tar.gz) | `tar -xzf Maxxwell-darwin-arm64.tar.gz` |
+| macOS x64 | [`Maxxwell-darwin-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.172/Maxxwell-darwin-x64.tar.gz) | `tar -xzf Maxxwell-darwin-x64.tar.gz` |
+| Linux tar | [`Maxxwell-linux-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.172/Maxxwell-linux-x64.tar.gz) | `tar -xzf Maxxwell-linux-x64.tar.gz` |
+| Linux deb | [`maxxwell_0.1.172-global-438_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.172/maxxwell_0.1.172-global-438_amd64.deb) | `sudo apt install ./maxxwell_0.1.172-global-438_amd64.deb` |
+| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.172/Maxxwell-windows-x64.zip) | `Expand-Archive .\Maxxwell-windows-x64.zip` (SmartScreen will warn) |
 
-[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.171/SHA256SUMS.txt) verifies every published artifact.
+[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.172/SHA256SUMS.txt) verifies every published artifact.
 
 ## If `maxxwell self-update` fails with HTTP 404
 
@@ -57,8 +57,8 @@ macOS arm64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.171/maxxwell-darwin-cli-arm64-global-437.tar.gz
-tar -xzf maxxwell-darwin-cli-arm64-global-437.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.172/maxxwell-darwin-cli-arm64-global-438.tar.gz
+tar -xzf maxxwell-darwin-cli-arm64-global-438.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -66,8 +66,8 @@ macOS x64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.171/maxxwell-darwin-cli-x64-global-437.tar.gz
-tar -xzf maxxwell-darwin-cli-x64-global-437.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.172/maxxwell-darwin-cli-x64-global-438.tar.gz
+tar -xzf maxxwell-darwin-cli-x64-global-438.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -75,8 +75,8 @@ Linux x64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.171/maxxwell-linux-cli-x64-global-437.tar.gz
-tar -xzf maxxwell-linux-cli-x64-global-437.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.172/maxxwell-linux-cli-x64-global-438.tar.gz
+tar -xzf maxxwell-linux-cli-x64-global-438.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -96,9 +96,9 @@ From v0.1.62 on, `maxxwell self-update` downloads from this repository.
 
 No declared platform artifacts are pending.
 
-Release bar for this build's candidate (its release-bar/<platform> commit statuses on c845fb052cdbe48d3816d3b443e0d11a02c29764, read before publish):
+Release bar for this build's candidate (its release-bar/<platform> commit statuses on c8341146d2070ec47809e661185a244071cdcfe0, read before publish):
 PASS = walked and passed; FAIL = walked and failed; NOT MEASURED = no walk result for this release run.
 
-- linux PASS (release-bar/linux success: rel2: v0.1.171 run 37270379442 fresh5 5/5 refused 0; fresh-kill 5/5; race+race-ml 0/6 doubled; M1 16/16 G-K https://github.com/rindler-ai/maxxwell-ide/actions/runs/37270379442)
-- windows PASS (release-bar/windows success: win: v0.1.171 candidate run_id=37270379442 J1 x5 rewalk (orig 5 NO_STEPS: stale app): bar 5/5 (refused distinct 0/0/0/0/0); J1 5/5 https://github.com/rindler-ai/maxxwell-ide/actions/runs/37270379442)
-- darwin NOT MEASURED (Mac offline) -- not measured on darwin (no release-bar/darwin status on c845fb052cdbe48d3816d3b443e0d11a02c29764); no step waits on the Mac
+- linux NOT MEASURED -- not measured on linux (release-bar/linux still pending after 45 min: rel3: v0.1.172 run 37558731561 candidate rows running https://github.com/rindler-ai/maxxwell-ide/actions/runs/37558731561)
+- windows NOT MEASURED -- not measured on windows (no release-bar/windows status on c8341146d2070ec47809e661185a244071cdcfe0)
+- darwin NOT MEASURED (Mac offline) -- not measured on darwin (no release-bar/darwin status on c8341146d2070ec47809e661185a244071cdcfe0); no step waits on the Mac
