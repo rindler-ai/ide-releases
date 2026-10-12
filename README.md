@@ -1,22 +1,22 @@
 # Maxxwell downloads
 
-Latest release: [v0.1.192](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.192)
+Latest release: [v0.1.193](https://github.com/rindler-ai/ide-releases/releases/tag/v0.1.193)
 
 ## Release identity
 
-- Version: v0.1.192
-- Build: global-467
-- Source commit: 2e1c58801e827a4a2b63318435d87042a3a0dc10
-- Staged: October 11, 2026 at 5:11:08 PM PDT
+- Version: v0.1.193
+- Build: global-472
+- Source commit: 40ff6d016559e483498462b4d901a5752ede1216
+- Staged: October 12, 2026 at 12:57:45 AM PDT
 
 | Platform | Download | Install |
 | --- | --- | --- |
-| macOS arm64 | [`Maxxwell-darwin-arm64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.192/Maxxwell-darwin-arm64.tar.gz) | `tar -xzf Maxxwell-darwin-arm64.tar.gz` |
-| Linux tar | [`Maxxwell-linux-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.192/Maxxwell-linux-x64.tar.gz) | `tar -xzf Maxxwell-linux-x64.tar.gz` |
-| Linux deb | [`maxxwell_0.1.192-global-467_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.192/maxxwell_0.1.192-global-467_amd64.deb) | `sudo apt install ./maxxwell_0.1.192-global-467_amd64.deb` |
-| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.192/Maxxwell-windows-x64.zip) | `Expand-Archive .\Maxxwell-windows-x64.zip` (SmartScreen will warn) |
+| macOS arm64 | [`Maxxwell-darwin-arm64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.193/Maxxwell-darwin-arm64.tar.gz) | `tar -xzf Maxxwell-darwin-arm64.tar.gz` |
+| Linux tar | [`Maxxwell-linux-x64.tar.gz`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.193/Maxxwell-linux-x64.tar.gz) | `tar -xzf Maxxwell-linux-x64.tar.gz` |
+| Linux deb | [`maxxwell_0.1.193-global-472_amd64.deb`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.193/maxxwell_0.1.193-global-472_amd64.deb) | `sudo apt install ./maxxwell_0.1.193-global-472_amd64.deb` |
+| Windows x64 (unsigned) | [`Maxxwell-windows-x64.zip`](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.193/Maxxwell-windows-x64.zip) | `Expand-Archive .\Maxxwell-windows-x64.zip` (SmartScreen will warn) |
 
-[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.192/SHA256SUMS.txt) verifies every published artifact.
+[SHA256SUMS.txt](https://github.com/rindler-ai/ide-releases/releases/download/v0.1.193/SHA256SUMS.txt) verifies every published artifact.
 
 ## If `maxxwell self-update` fails with HTTP 404
 
@@ -56,8 +56,8 @@ macOS arm64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.192/maxxwell-darwin-cli-arm64-global-467.tar.gz
-tar -xzf maxxwell-darwin-cli-arm64-global-467.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.193/maxxwell-darwin-cli-arm64-global-472.tar.gz
+tar -xzf maxxwell-darwin-cli-arm64-global-472.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -65,8 +65,8 @@ macOS x64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.192/maxxwell-darwin-cli-x64-global-467.tar.gz
-tar -xzf maxxwell-darwin-cli-x64-global-467.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.193/maxxwell-darwin-cli-x64-global-472.tar.gz
+tar -xzf maxxwell-darwin-cli-x64-global-472.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -74,8 +74,8 @@ Linux x64:
 
 ```sh
 cd "$(mktemp -d)"
-curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.192/maxxwell-linux-cli-x64-global-467.tar.gz
-tar -xzf maxxwell-linux-cli-x64-global-467.tar.gz
+curl -fLO https://github.com/rindler-ai/ide-releases/releases/download/v0.1.193/maxxwell-linux-cli-x64-global-472.tar.gz
+tar -xzf maxxwell-linux-cli-x64-global-472.tar.gz
 install -m 0755 maxxwell "$(command -v maxxwell)"
 ```
 
@@ -96,9 +96,9 @@ From v0.1.62 on, `maxxwell self-update` downloads from this repository.
 
 No declared platform artifacts are pending.
 
-Release bar for this build's candidate (its release-bar/<platform> commit statuses on 2e1c58801e827a4a2b63318435d87042a3a0dc10, read before publish):
+Release bar for this build's candidate (its release-bar/<platform> commit statuses on 40ff6d016559e483498462b4d901a5752ede1216, read before publish):
 PASS = walked and passed; FAIL = walked and failed; NOT MEASURED = no walk result for this release run.
 
-- linux NOT MEASURED -- not measured on linux (no release-bar/linux status on 2e1c58801e827a4a2b63318435d87042a3a0dc10)
-- windows NOT MEASURED -- not measured on windows (no release-bar/windows status on 2e1c58801e827a4a2b63318435d87042a3a0dc10)
-- darwin NOT MEASURED (Mac offline) -- not measured on darwin (no release-bar/darwin status on 2e1c58801e827a4a2b63318435d87042a3a0dc10); no step waits on the Mac
+- linux NOT MEASURED -- not measured on linux (no release-bar/linux status on 40ff6d016559e483498462b4d901a5752ede1216)
+- windows NOT MEASURED -- not measured on windows (no release-bar/windows status on 40ff6d016559e483498462b4d901a5752ede1216)
+- darwin NOT MEASURED (Mac offline) -- not measured on darwin (no release-bar/darwin status on 40ff6d016559e483498462b4d901a5752ede1216); no step waits on the Mac
